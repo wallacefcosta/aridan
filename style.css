@@ -1,0 +1,60 @@
+html ,body , #home{
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'AfronikSoft';
+    src: url(fonts/AfronikSoft/OpenType-PS/Afronik.otf) format('opentype'),
+    url(fonts/AfronikSoft/OpenType-TT/Afronik.ttf) format('truetype'); 
+}
+
+/*Barra de Navegação*/
+
+nav.navbar-transparente {
+    padding: 15px 0px;
+    background: rgba(216, 118, 6, 0.897);
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #e6e6e6;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(179, 99, 30);
+    font-size: 2em;
+}
+
+body {
+    font-family: 'AfronikSoft', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+    background-color: #f78400e5;
+}
+
+/* Inicio Secao principal*/
+
+#home {
+    padding-top: 180px;
+}
+
+.capa {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.imagem {
+    margin-left: -270px;
+    margin-top: -50px;
+    margin-bottom: px;
+    position: relative;
+}
+/* Formatacoes*/
+
+h1 {
+    color: #b61111;
+}
+
+p {
+    color: #e6e6e6;
+}
+
+/* Fim Secao principal*/
